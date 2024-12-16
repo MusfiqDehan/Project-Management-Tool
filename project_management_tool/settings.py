@@ -38,10 +38,12 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Third-party apps
     "rest_framework",
     "rest_framework_simplejwt",
-    "project_management_api",
     "drf_yasg",
+    # Local apps
+    "project_management_api",
 ]
 
 MIDDLEWARE = [
@@ -143,7 +145,7 @@ SIMPLE_JWT = {
     "BLACKLIST_AFTER_ROTATION": True,
     "UPDATE_LAST_LOGIN": True,
     "ALGORITHM": "HS256",
-    "SIGNING_KEY": "your-secret-key",  # Replace with a strong, secret key
+    "SIGNING_KEY": "secret-key",
     "VERIFYING_KEY": None,
     "AUTH_HEADER_TYPES": ("Bearer",),
     "AUTH_HEADER_NAME": "HTTP_AUTHORIZATION",
