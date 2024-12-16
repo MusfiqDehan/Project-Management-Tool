@@ -30,8 +30,8 @@ A REST API for managing projects, tasks, and comments built with Django REST Fra
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd project-management-api
+git clone https://github.com/MusfiqDehan/Project-Management-Tool.git
+cd Project-Management-Tool
 ```
 2. Create a virtual environment and activate it:
 ```bash
