@@ -132,23 +132,8 @@ Authorization: Bearer <your_access_token>
 - task: Task reference
 - created_at: datetime
 
-## Development
-### Running Tests
-```bash
-pytest
-```
-### Code Style
-Follow PEP 8 guidelines for Python code style.
-
-## Security Considerations
-- Keep the sensitive information secure in .env file
-- DEBUG should be set to False in production
-- ALLOWED_HOSTS should be properly configured in production
-- Use strong passwords for superuser and database
-- Keep dependencies updated for security patches
-
 ## License
 MIT-licensed. [See LICENSE](LICENSE)
 
-## Contributing
+## Contributors
 Maintained by [Md. Musfiqur Rahaman](https://github.com/musfiqdehan)
