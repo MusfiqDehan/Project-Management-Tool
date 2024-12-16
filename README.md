@@ -1,6 +1,34 @@
-# Project Management API
+<div align="center">
 
-A REST API for managing projects, tasks, and comments built with Django REST Framework and JWT authentication with Swagger documentation.
+<h1> Project Management API</h1>
+
+<p> A REST API for managing projects, tasks, and comments built with Django REST Framework and JWT authentication with Swagger documentation. </p>
+
+<p>
+
+<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green">
+<img src="https://img.shields.io/badge/Django%20REST%20framework-ff1709?style=for-the-badge&logo=django&logoColor=white">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=blue">
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+
+</p>
+
+![screenshot](screenshot.png)
+
+</div>
+
+## Table of Contents
+
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [API Endpoints](#api-endpoints)
+- [Authentication](#authentication)
+- [Models](#models)
+- [License](#license)
+- [Contributors](#contributors)
 
 ## Features
 
@@ -21,7 +49,6 @@ A REST API for managing projects, tasks, and comments built with Django REST Fra
 - Django REST Framework
 - Django
 - SQLite
-- pytest (unit testing)
 - JWT (JSON Web Token) authentication
 - Swagger (API documentation)
 
